@@ -91,14 +91,7 @@ const VideoPlayer: React.FC = () => {
                     </svg>
                 }
             </button>
-            <div
-                style={{
-                    zIndex: 1,
-                }}
-                className=' absolute bottom-20 lg:bottom-6 font-bold text-3xl lg:text-4xl text-white text-center w-full'
-            >
-                Coming Soon….
-            </div>
+
         </div>
     );
 };
