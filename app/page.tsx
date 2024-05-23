@@ -1,20 +1,13 @@
-import Image from "next/image";
+'use client'
+import React from 'react';
+import VideoPlayer from '../components/VideoPlayer';
 
-export default function Home() {
+const HomePage: React.FC = () => {
   return (
-    <main>
-      {/* Full screen video autoplay */}
-
-      <video
-        autoPlay
-        // muted
-        loop
-        playsInline
-        poster="/images/artisan.jpg"
-        className="fixed inset-0 object-cover w-full h-full"
-      >
-        <source src="/video.mp4" type="video/mp4" />
-      </video>
-    </main>
+    <div>
+      <VideoPlayer />
+    </div>
   );
-}
+};
+
+export default HomePage;
